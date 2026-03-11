@@ -1,6 +1,6 @@
 <?php
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'profileai_db');
+define('DB_NAME', 'profileai_db_test');
 define('DB_USER', 'root');
 define('DB_PASS', '');
 
@@ -13,4 +13,5 @@ if (!is_dir(UPLOAD_DIR)) mkdir(UPLOAD_DIR, 0755, true);
 if (!is_dir(PROCESSED_DIR)) mkdir(PROCESSED_DIR, 0755, true);
 
 session_start();
+
 ?>
