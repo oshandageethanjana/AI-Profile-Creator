@@ -121,6 +121,7 @@ if ($action === 'redeem') {
     }
 
     // Apply Code
+ // new look for apple glass
     $expiryDate = null;
     if ($codeData['type'] === '1_month') $expiryDate = date('Y-m-d H:i:s', strtotime('+1 month'));
     if ($codeData['type'] === '1_year') $expiryDate = date('Y-m-d H:i:s', strtotime('+1 year'));
