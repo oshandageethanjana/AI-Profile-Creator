@@ -35,7 +35,7 @@ if ($action === 'generate') {
         }
     }
 
-    // 3. Process Image
+    // 3. Process Image and generate image
     $tmpFile = $_FILES['image']['tmp_name'];
     $filename = uniqid() . '.png';
     $savePath = PROCESSED_DIR . $filename;
